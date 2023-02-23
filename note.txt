@@ -1,0 +1,10 @@
+Package
+    firebase 
+    uuid (random name for picture)
+
+1. Tạo file src/firebase.js
+    copy setting firebase
+    import getStorage...
+    export store = getStorage(app)
+2. Gọi lại sang App
+import { ref } from "firebase/storage";
